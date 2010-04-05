@@ -1,6 +1,5 @@
 \name{orloca.es-package}
 \alias{orloca.es-package}
-\alias{orloca-package}
 \alias{orloca}
 \alias{orloca.es}
 \docType{package}
@@ -17,13 +16,16 @@
 \preformatted{
 Package:   orloca.es
 Type:      Package
-Version:   2.0
-Date:      2008-11-20
+Version:   3.0
+Date:      2010-04-02
 License:   GPL (>= 2)
 }
 El paquete proporciona una clase (\code{loca.p}) que representa un problema de \enc{localización}{localizacion} con un conjunto finito de puntos de demanda sobre el plano. \enc{También}{Tambien} es posible representar los puntos y la \enc{función}{funcion} objetivo. Dicha \enc{función}{funcion} objetivo representa la suma de los desplazamientos de los usuarios a un servicio.
 
-Para una demostración, cargue el paquete con \code{library(orloca.es)} y use \code{demo(orloca)}.
+Para una \enc{demostración}{demostracion}, cargue el paquete con \code{library(orloca.es)} y use \code{demo(orloca)}.
+
+El paquete está preparado para su internacionalización. Las traducciones
+de los ficheros .mo recibidas serán añadidas en próximas versiones del paquete.
 }
 \author{
 Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and Manuel
@@ -41,16 +43,16 @@ Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
 
 \section{Index:}{
   \tabular{ll}{
-\code{\link{loca.p}}: \tab descripción de la clase loca.p.\cr
+\code{\link{loca.p}}: \tab \enc{descripción}{descripcion} de la clase loca.p.\cr
 \code{\link{rloca.p}}: \tab instancias aleatorias de objetos de la clase \code{loca.p}.\cr
-\code{\link{zsum}}: \tab función para evaluar la función objetivo para modelos min-sum.\cr
-\code{\link{zsummin}}: \tab para encontrar el mínimo del problema de localización.\cr
-\code{\link{plot.loca.p}}: \tab para hacer gráficos de los objetos de la clase \code{loca.p}.\cr
-\code{\link{plot.zsum}}: \tab para hacer gráficos de la función objetivo.\cr
+\code{\link{zsum}}: \tab \enc{función}{funcion} para evaluar la función objetivo para modelos min-sum.\cr
+\code{\link{zsummin}}: \tab para encontrar el \enc{mínimo}{minimo} del problema de localización.\cr
+\code{\link{plot.loca.p}}: \tab para hacer \enc{gráficos}{graficos} de los objetos de la clase \code{loca.p}.\cr
+\code{\link{plot.zsum}}: \tab para hacer \enc{gráficos}{graficos} de la \enc{función}{funcion} objetivo.\cr
 }
 }
 
-\seealso{This is the spanish version of the orloca package. More information at \url{http://knuth.uca.es/orloca}}
+\seealso{For the English version of the package see \link[orloca]{orloca-package}.}
 
 \examples{
 # Un objeto loca.p no ponderado
