@@ -43,7 +43,7 @@
   }
 
 \examples{
-# Un objeto loca.p no ponderado
+# Un objeto loca.p sin pesos
 loca <- loca.p(x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 # o
 loca <- new("loca.p", x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))

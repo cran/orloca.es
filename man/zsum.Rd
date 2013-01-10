@@ -42,7 +42,7 @@ zsum(loca)
 # Evaluacion de zsum at (1, 3)
 zsum(loca, 1, 3)
 
-# Calculo de la fucion objetibo en el punto (3, 4) usando la norma lp con p = 2.5
+# Calculo de la fucion objetivo en el punto (3, 4) usando la norma lp con p = 2.5
 zsum(loca, 3, 4, lp=2.5)
 
 # La funcion gradiente en (1,3)

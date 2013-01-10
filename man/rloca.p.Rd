@@ -35,13 +35,13 @@ rloca.p(n, xmin=0, xmax=1, ymin=0, ymax=1, groups=numeric(0),
 
   \code{ymin} debe ser menor o igual que \code{ymax}.
 
-  Cuando se suministra valor para \code{groups} los puntos se generan en
+  Cuando se suministra valor no nulo para \code{groups} los puntos se generan en
   dos fases, en la primera se genera un punto de referencia, en la
   segunda se genera un desplazamiento sobre dicho punto de referencia
   que se suma a \enc{éste}{este}.
 
   \enc{Obsérvese}{Observese} que \code{groups = 1} no es equivalente a
-  \code{groups = numeric(0)}, debido a que en el primer caso se genera
+  \code{groups = 0}, debido a que en el primer caso se genera
   un punto de referencia en la primera etapa.
 }
 \value{
@@ -52,13 +52,13 @@ rloca.p(n, xmin=0, xmax=1, ymin=0, ymax=1, groups=numeric(0),
 # Un objeto aleatorio loca.p en el cuadrado unidad con 5 puntos de demanda
 rloca.p(5)
 
-# En otra región
+# En otra region
 rloca.p(10, xmin=-2, xmax=2, ymin=-2, ymax=2)
 
 # Cinco grupos
 rloca.p(48, groups=5)
 
-# Tres grupos de distinto tamaño
+# Tres grupos de distinto tamano
 rloca.p(1, groups=c(10, 7, 2))
 }
 \keyword{datagen}

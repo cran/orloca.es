@@ -37,14 +37,15 @@
   La \enc{función}{funcion} \code{contour} representa un \enc{gráfico}{grafico} de curvas de nivel y la \enc{función}{funcion} \code{persp} un \enc{gráfico}{grafico} 3D.
 }
 \details{Si \eqn{p < 1} entonces \eqn{l_p} no es norma, por tanto, \enc{sólo}{solo} \eqn{p \ge 1} es \enc{válido}{valido}.}
+
 \examples{
-# Un objeto loca.p no ponderado
+# Un objeto loca.p sin pesos
 loca <- loca.p(x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 
-# El gráfico de curvas de nivel del objeto loca.p
+# El grafico de curvas de nivel de la fucion min-sum para el objeto loca.p
 contour(loca)
 
-# El gráfico 3D del objeto loca.p
+# El grafico 3D del objeto loca.p
 persp(loca)
 }
 \keyword{classes}

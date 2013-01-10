@@ -18,9 +18,9 @@
 \preformatted{
 Package:   orloca.es
 Type:      Package
-Version:   4.0
-Date:      2012-09-06
-License:   GPL (>= 2)
+Version:   4.1
+Date:      2013-01-10
+License:   GPL (>= 3)
 }
 El paquete proporciona una clase (\code{loca.p}) que representa un problema de \enc{localización}{localizacion} con un conjunto finito de puntos de demanda sobre el plano. \enc{También}{Tambien} es posible representar los puntos y la \enc{función}{funcion} objetivo. Dicha \enc{función}{funcion} objetivo representa la suma de los desplazamientos de los usuarios a un servicio.
 
@@ -60,10 +60,10 @@ Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
 # Un objeto loca.p no ponderado
 o <- new("loca.p", x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 
-# Calcula la función objetivo en el punto c(3, 4)
+# Calcula la funcion objetivo en el punto c(3, 4)
 zsum(o, 3, 4)
 
-# Resuelve el problema de localización
+# Resuelve el problema de localizacion
 zsummin(o)
 
 # Curvas de nivel

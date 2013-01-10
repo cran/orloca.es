@@ -62,13 +62,13 @@
 # Un objeto loca.p no ponderado
 loca <- loca.p(x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 
-# Conversión a matriz
+# Conversion a matriz
 m <- as.matrix(loca)
 
 # Mostrar la matriz
 m
 
-# Conversión desde una matriz
+# Conversion desde una matriz
 as.loca.p(m)
 }
 \keyword{classes}

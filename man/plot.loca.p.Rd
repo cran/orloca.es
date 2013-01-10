@@ -22,8 +22,8 @@
   \item{ylab}{La etiqueta para el eje y.}
   \item{main}{El \enc{título}{titulo} principal del \enc{gráfico}{grafico}.}
   \item{img}{Una imagen en formato raster para el fondo.}
-  \item{xlim}{Limite sobre el eje x del \enc{gráfico}{grafico}.}
-  \item{ylim}{Limite sobre el eje y del \enc{gráfico}{grafico}.}
+  \item{xlim}{\enc{Límite}{Limite} sobre el eje x del \enc{gráfico}{grafico}.}
+  \item{ylim}{\enc{Límite}{Limite} sobre el eje y del \enc{gráfico}{grafico}.}
   \item{xleft}{\enc{Posición}{Posicion} del borde izquierdo de la imagen.}
   \item{ybottom}{\enc{Posición}{Posicion} del borde inferior de la imagen.}
   \item{xright}{\enc{Posición}{Posicion} del borde derecho de la imagen.}
@@ -31,16 +31,16 @@
   \item{\ldots}{Otras opciones gráficas.}
 }
 \details{
-  Gráfico de los puntos de demanda con \enc{límites}{limitex} de \enc{evaluación}{evaluacion} \enc{automáticos}{automaticos}.
+  Gráfico de los puntos de demanda con \enc{límites}{limites} de \enc{evaluación}{evaluacion} \enc{automáticos}{automaticos}.
 }
 \value{
   La \enc{representación}{representacion} \enc{gráfica}{grafica} de los puntos de demanda.
 }
 \examples{
-# Un objeto de la clase loca.p no ponderado
+# Un objeto de la clase loca.p sin pesos
 loca <- new("loca.p", x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 
-# El gráfico del objeto loca.p
+# El grafico del objeto loca.p
 plot(loca)
 }
 \keyword{classes}
