@@ -8,7 +8,7 @@
   \eqn{l_p}. Principalmente para uso interno.}
 \usage{
 zsumlpmin(o, x=0, y=0, p=2, max.iter=100, eps=1.e-3, 
-   verbose=FALSE, algorithm="weiszfeld")
+   verbose=FALSE, algorithm="weiszfeld", ...)
 }
 \arguments{
   \item{o}{Un objeto de la clase \code{loca.p}.}
@@ -21,7 +21,16 @@ zsumlpmin(o, x=0, y=0, p=2, max.iter=100, eps=1.e-3,
   \item{verbose}{Si es TRUE la \enc{función}{funcion} proporciona salida
     detallada.}
   \item{algorithm}{El algoritmo a utilizar. Para esta
-    \enc{versión}{version} del paquete, los valores \enc{válidos}{validos} son: "gradient" o "g" para un algoritmo de gradiente, "search" o "s" para un algoritmo de \enc{búsqueda}{busqueda} local (esta \enc{opción}{opcion} \enc{está}{esta} obsoleta), "weiszfeld" o "w" para el algoritmo de Weiszfeld o cualquiera de los \enc{métodos}{metodos} \enc{válidos}{validos} para la \enc{función}{funcion} optim, a saber, "Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN". "Weiszfeld" es el valor por defecto.}
+    \enc{versión}{version} del paquete, los valores
+    \enc{válidos}{validos} son: "gradient" o "g" para un algoritmo de
+    gradiente, "search" o "s" para un algoritmo de
+    \enc{búsqueda}{busqueda} local (esta \enc{opción}{opcion}
+    \enc{está}{esta} obsoleta), "weiszfeld" o "w" para el algoritmo de
+    Weiszfeld o cualquiera de los \enc{métodos}{metodos}
+    \enc{válidos}{validos} para la \enc{función}{funcion} optim, a
+    saber, "Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN". "Weiszfeld"
+    es el valor por defecto.}
+  \item{...}{Otras opciones para los algoritmos de optimizaci\enc{ó}{o}n.}
 }
 \details{
 Si \eqn{p<1} entonces \eqn{l_p} no es una norma, por tanto, \enc{sólo}{solo} valores \eqn{p>=1} son \enc{válidos}{validos}.
