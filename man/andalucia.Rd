@@ -1,6 +1,6 @@
 \docType{data}
-\name{andalusia-data}
-\alias{andalusia-data}
+\name{andalusia}
+\alias{andalucia}
 \alias{andalusia}
 \encoding{UTF-8}
 
@@ -29,4 +29,5 @@ Los datos se han tomado de wikipedia.
 V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link{orloca-package}}.
 }
 \keyword{Andalucia}
+\keyword{Andalusia}
 \keyword{data}
