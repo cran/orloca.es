@@ -30,7 +30,7 @@ distsum(o, x=0, y=0, lp=numeric(0))
   y \enc{será}{sera} borrada de nuevas versiones del paquete.
 }
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}} y \code{\link{distsummin}}.
+  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}} y \code{\link[orloca.es]{distsummin}}.
   }
 \section{Ejemplos}{
 # Un nuevo objeto loca.p sin pesos

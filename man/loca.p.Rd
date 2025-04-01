@@ -11,7 +11,7 @@
   Un objeto de la clase \code{loca.p} representa un problema de
   \enc{localización}{localizacion} ponderado con un conjunto finito de
   puntos de demanda en el plano. 
- El \code{\link{orloca.es-package}} \enc{está}{esta} principalmente
+ El \code{\link[orloca.es]{orloca.es-package}} \enc{está}{esta} principalmente
  dedicado a abordar problemas de \enc{localización}{localizacion} plana.
 }
 
@@ -38,7 +38,7 @@
   en formato tabla.
   }
   
-\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}}.}
+\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}}.}
 
 \section{Ejemplos}{
 # Un objeto loca.p sin pesos

@@ -1,10 +1,6 @@
 \docType{methods}
 \name{as-methods}
 \alias{as-methods}
-\alias{as.data.frame}
-\alias{as.matrix}
-\alias{as.loca.p,data.frame-method}
-\alias{as.loca.p,matrix-method}
 \encoding{UTF-8}
 
 \title{as-methods}
@@ -47,7 +43,7 @@ m
 as.loca.p(m)
 }
 \section{V\enc{é}{e}ase tambi\enc{é}{e}n}{
-V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link{loca.p}}
+V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link[orloca.es]{loca.p}}
 }
 \keyword{classes}
 \keyword{methods}

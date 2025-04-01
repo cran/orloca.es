@@ -26,7 +26,7 @@ Los datos se han tomado de wikipedia.
 }
 
 \seealso{
-V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link{orloca.es-package}}.
+V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link[orloca.es]{orloca.es-package}}.
 }
 \keyword{Andalucia}
 \keyword{Andalusia}

@@ -54,7 +54,7 @@ distsumgra(loca, 1, 3)
 
 }
 \seealso{
-V\enc{é}{e}ase \code{\link{orloca-package}} y \code{\link{distsum}}.
+V\enc{é}{e}ase \code{\link[orloca]{orloca-package}} y \code{\link[orloca.es]{distsum}}.
 }
 \keyword{classes}
 \keyword{optimize}

@@ -77,5 +77,5 @@ distsum(loca, sol[1], sol[2])
 }
 
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-\code{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}}, \code{\link{loca.p}} y \code{\link{distsum}}.
+\enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}}, \code{\link[orloca.es]{loca.p}} y \code{\link[orloca.es]{distsum}}.
 }

@@ -40,8 +40,8 @@
   La \enc{representación}{representacion} \enc{gráfica}{grafica} de los puntos de demanda.
 }
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}},
-  \code{\link{loca.p}} y \code{\link{plot}}.}
+  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}},
+  \code{\link[orloca.es]{loca.p}} y \code{\link[orloca.es]{plot}}.}
 
 \section{Ejemplos}{
 # Un objeto de la clase loca.p sin pesos

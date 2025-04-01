@@ -33,7 +33,7 @@
   Un \enc{gráfico}{grafico} 3D de la \enc{función}{funcion} min-sum.
 }
 
-\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}}, \code{\link{plot.loca.p}} y \code{\link{loca.p}}.}
+\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}}, \code{\link[orloca.es]{plot.loca.p}} y \code{\link[orloca.es]{loca.p}}.}
 
 \section{Ejemplos}{
 # Un objeto loca.p sin pesos

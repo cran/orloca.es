@@ -27,8 +27,8 @@
 \preformatted{
 Package:   orloca.es
 Type:      Package
-Version:   4.9
-Date:      2020-03-06
+Version:   5.5
+Date:      2025-04-01
 License:   GPL (>= 3)
 }
 El paquete proporciona una clase, \code{loca.p}, que representa un problema de localizaci\enc{ó}{o}n con un conjunto finito de puntos de demanda sobre el plano. Tambi\enc{é}{e}n es posible representar los puntos y la funci\enc{ó}{o}n objetivo. Dicha funci\enc{ó}{o}n objetivo representa la suma de los desplazamientos de los usuarios al servicio.
@@ -47,11 +47,11 @@ Manuel  Munoz-Marquez <manuel.munoz@uca.es>
 Mantenedor: Manuel Munoz-Marquez <manuel.munoz@uca.es>
 }
 \section{Referencias}{
-[1] Brimberg, J. \emph{The Fermat-Weber location problem revisited}, Mathematical Programming, 1, pg. 71-76, 1995. \url{https://doi.org/10.1007/BF01592245}.
+[1] Brimberg, J. \emph{The Fermat-Weber location problem revisited}, Mathematical Programming, 1, pg. 71-76, 1995. \doi{10.1007/BF01592245}.
   
 [2] Love, R. F., Morris, J. G., Wesolowsky, G. O. \emph{Facilities Location: Chapter 2: Introduction to Single-Facility Location}, 1988, North-Holland
 
-[3] \url{http://knuth.uca.es/orloca}
+[3] \url{http://knuth.uca.es/orloca/}
 }
 \keyword{package}
 \keyword{optimize}
@@ -60,20 +60,26 @@ Mantenedor: Manuel Munoz-Marquez <manuel.munoz@uca.es>
 
 \section{Ejemplos}{
 # Un objeto loca.p no ponderado
+  
 o <- loca.p(x = c(-1, 1, 1, -1), y = c(-1, -1, 1, 1))
 
 # Calcula la funcion objetivo en el punto (3, 4)
+
 zsum(o, 3, 4)
 
 # Calcula ls suma de las distancias al punto (3, 4) usando la norma lp
+
 zsum(o, 3, 4, lp=2.5)
 
 # Resuelve el problema de localizacion
+
 zsummin(o)
 
 # Curvas de nivel
+
 contour(o)
 
 # Ejecuta una demo del paquete
+
 demo(orloca)
 }

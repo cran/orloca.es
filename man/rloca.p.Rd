@@ -53,7 +53,7 @@ rloca.p(n, xmin = 0, xmax = 1, ymin = 0, ymax = 1, groups = 0,
   \code{loca_p}, en otro caso informa de un error.
 }
 
-\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca]{orloca-package}} y \code{\link{loca.p}}}
+\section{\enc{Véase}{Vease} \enc{también}{tambien}}{\enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca]{orloca-package}} y \code{\link[orloca.es]{loca.p}}}
 
 \section{Ejemplos}{
 # Un objeto aleatorio loca.p en el cuadrado unidad con 5 puntos de demanda

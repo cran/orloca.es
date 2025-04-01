@@ -35,5 +35,5 @@ zsuml2gra(o, x=0, y=0, partial=F)
 \keyword{internal}
 \keyword{optimize}
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link{orloca.es-package}}, \code{\link{zsum}}, \code{\link{zsumgra}} y \code{\link{zsummin}}.
+  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}}, \code{\link[orloca.es]{zsum}}, \code{\link[orloca.es]{zsumgra}} y \code{\link[orloca.es]{zsummin}}.
 }

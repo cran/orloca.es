@@ -10,6 +10,6 @@ zsumgra(...)
 \item{\ldots}{Par\enc{á}{a}metros pasados a distsumgra}
 }
 \description{
-La funci\enc{ó}{o}n zsumgra est\enc{a}{a} obsoleta y podr\enc{í}{i}a ser suprimida en sucesivas versiones del paquete. Use \link{distsumgra} en su lugar.
+La funci\enc{ó}{o}n zsumgra est\enc{a}{a} obsoleta y podr\enc{í}{i}a ser suprimida en sucesivas versiones del paquete. Use \link[orloca.es]{distsumgra} en su lugar.
 }
 \keyword{obsoleta}

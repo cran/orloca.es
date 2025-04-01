@@ -53,7 +53,7 @@ distsuml2min(o, x=0, y=0, max.iter=100, eps=0.001, verbose=FALSE,
   y \enc{será}{sera} borrada de nuevas versiones del paquete.
 }
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-  Vea \enc{también}{tambien} \code{\link{orloca.es-package}}, \code{\link{loca.p}} y \code{\link{distsum}}.
+  Vea \enc{también}{tambien} \code{\link[orloca.es]{orloca.es-package}}, \code{\link[orloca.es]{loca.p}} y \code{\link[orloca.es]{distsum}}.
   }
 \keyword{classes}
 \keyword{optimize}

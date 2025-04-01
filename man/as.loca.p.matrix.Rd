@@ -42,7 +42,7 @@ m
 as.loca.p(m)
 }
 \section{V\enc{é}{e}ase tambi\enc{é}{e}n}{
-V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link{loca.p}}
+V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link[orloca.es]{loca.p}}
 }
 \keyword{classes}
 \keyword{methods}

@@ -46,7 +46,7 @@ Dado que \eqn{l_2} es la norma \enc{euclídea}{euclidea}, cuando \eqn{p=2}
 }
 
 \section{\enc{Véase}{Vease} \enc{también}{tambien}}{
-  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link{distsum}}, \code{\link{orloca.es-package}} y \code{\link{distsumlpmin}}.
+  \enc{Véase}{Vease} \enc{también}{tambien} \code{\link[orloca.es]{distsum}}, \code{\link[orloca.es]{orloca.es-package}} y \code{\link[orloca.es]{distsumlpmin}}.
 }
 
 \keyword{classes}

@@ -22,11 +22,10 @@ Si el argumento tiene un valor v\enc{á}{a}lido devuelve un nuevo objeto de la n
 
 No se permiten valores NA en ning\enc{ú}{u}n argumento.
 
-La \code{matrix} a convertir en \code{loca.p} debe tener al menos dos columnas. 
-La primera ser\enc{á }{a } considerada como la coordenada x, y la segunda como la coordenada y, y la tercera (si se ha suministrado) ser\enc{á}{a}n los valores de w.
-
-El \code{data.frame} a convertir a \code{loca.p} debe tener al menos una columna \code{x} para la coordenada x, y una columna \code{y} para la coordenada y.
-Opcionalmente, puede tener una columna \code{w} para los valores de w.
+La \code{matrix} o el \code{data.frame} a convertir en \code{loca.p} debe tener al menos dos columnas. 
+La primera ser\enc{á }{a } considerada como la coordenada x, y la
+segunda como la coordenada y, y la tercera, si se ha suministrado,
+ser\enc{á}{a}n los valores de los pesos w.
 }
 \section{Ejemplos}{
 # Un nuevo objeto loca.p
@@ -42,7 +41,7 @@ m
 as.loca.p(m)
 }
 \section{V\enc{é}{e}ase tambi\enc{é}{e}n}{
-V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link{loca.p}}
+V\enc{é}{e}ase tambi\enc{é}{e}n \code{\link[orloca.es]{loca.p}}
 }
 \keyword{classes}
 \keyword{methods}
